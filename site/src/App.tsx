@@ -1,15 +1,10 @@
 import React from 'react';
 import './App.css';
+import Page from './Layout/Page';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Work in progress</p>
-        
-      </header>
-    </div>
-  );
+const App: React.FC = ({ }) => {
+    return (<div>
+        <Page />
+    </div>);
 }
-
 export default App;
