@@ -3,18 +3,19 @@
 display: flex;
 flex-direction: row-reverse;
 height: 10vnh;
+padding-right: 2%;
 
 ul {
     display: flex;
     gap: 10px;
 
     li{
-        color:aliceblue;
         list-style: none;
 
         a:link {
             color:aliceblue;
             text-decoration: none;
+            font-size: 1.2rem;
         }
 
         a:visited {
@@ -23,12 +24,9 @@ ul {
         }
         
         a:hover {
-            text-decoration: #9290C3 wavy underline;
+            color: #040f63;;
         }
 
-        a:visited {
-            text-decoration: #9290C3 wavy underline;
-        }
     }
 }
 

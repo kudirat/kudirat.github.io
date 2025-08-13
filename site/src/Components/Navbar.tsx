@@ -4,9 +4,9 @@ const Navbar: React.FC = ({ }) => {
     return(
     <div className='navbar-style'>
         <ul>
-            <li><a href=''>Home</a></li>
-            <li><a href=''>Projects</a></li>
-            <li><a href=''>Resume</a></li>
+            <li><a href=''>about</a></li>
+            <li><a href=''>projects</a></li>
+            <li><a href=''>idea_dump</a></li>
         </ul>
     </div>)
 };
